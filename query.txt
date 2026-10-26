@@ -1,71 +1,40 @@
 Database: OnlineBookstoreDemo
-Database URL: [http://127.0.0.1:8080](http://127.0.0.1:8080)
+Database URL: http://127.0.0.1:8080
 
-**Q1: To display all books**
-
-```sql
+Q1: To display all books
 from "Books"
-```
 
-**Q2: To display books priced above 40**
-
-```sql
+Q2: To display books priced above 40
 from "Books"
 where Price > 40
-```
 
-**Q3: To search books using ID**
-
-```sql
+Q3: To search books using ID
 from "Books"
 where id() = "books/1-A"
-```
 
-**Q4: To search books by title**
-
-```sql
+Q4: To search books by title
 from "Books"
 where Title = "Clean Code"
-```
 
-**Q5: To display books sorted by price in descending order**
-
-```sql
+Q5: To display books sorted by price in descending order
 from "Books"
 order by Price desc
-```
 
-**Q6: To display books sorted by price in ascending order**
-
-```sql
+Q6: To display books sorted by price in ascending order
 from "Books"
 order by Price
-```
 
-**Q7: To display books with stock greater than 10**
-
-```sql
+Q7: To display books with stock greater than 10
 from "Books"
 where Stock > 10
-```
 
-**Q8: To display books with stock less than 10**
-
-```sql
+Q8: To display books with stock less than 10
 from "Books"
 where Stock < 10
-```
 
-**Q9: To display all orders**
-
-```sql
+Q9: To display all orders
 from "Orders"
-```
 
-**Q10: To search orders by customer email**
-
-```sql
+Q10: To search orders by customer email
 from "Orders"
 where CustomerEmail = "test@example.com"
-```
-
