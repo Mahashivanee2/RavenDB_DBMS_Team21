@@ -14,8 +14,8 @@ Replace the placeholders below with the roll number and full name of every team 
 
 | S. No. | Roll Number | Name |
 |---|---|---|
-| 1 | [CB.SC.U4CSE25745] | [Rithanya Devi] |
-| 2 | [CB.SC.U4CSE25726] | [Mahashivanee M] |
+| 1 | CB.SC.U4CSE25745 | Rithanya Devi |
+| 2 | CB.SC.U4CSE25726 | Mahashivanee M |
 
 
 ## Project Overview
